@@ -1,0 +1,159 @@
+/* Style for the header */
+header {
+    background-color: #007BFF;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    cursor: url('https://cdn.glitch.global/9db2a1f2-34be-4092-a7b6-a47e167d74d1/normal.red.png?v=1696675435276');
+}
+
+body {
+  cursor: url('https://cdn.glitch.global/9db2a1f2-34be-4092-a7b6-a47e167d74d1/normal.red.png?v=1696675435276'), auto;
+}
+
+.featured {
+  background-color: #f4f4f4; /* Background color for the box */
+  border: 1px solid #cccccc; /* Border around the box */
+  padding: 20px; /* Padding inside the box */
+  margin: 20px 0; /* Margin around the box */
+  border-radius: 10px; /* Rounded corners for the box */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle elevation effect */
+}
+
+/* Style for the heading inside the Featured Releases section */
+.featured h2 {
+  color: #333333; /* Text color for the heading */
+}
+
+/* Style for latest releases section */
+.latest-releases {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.release {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    margin: 10px;
+    flex-basis: calc(33.33% - 20px);
+    text-align: center;
+    transition: transform 0.2s;
+    cursor: url('https://cdn.glitch.global/9db2a1f2-34be-4092-a7b6-a47e167d74d1/link_select.png?v=1696675451820'), auto;
+}
+
+.release:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    cursor: url('https://cdn.glitch.global/9db2a1f2-34be-4092-a7b6-a47e167d74d1/link_select.png?v=1696675451820'), auto;
+}
+
+.release h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.read-more {
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+    cursor: url('https://cdn.glitch.global/9db2a1f2-34be-4092-a7b6-a47e167d74d1/link_select.png?v=1696675451820'), auto;
+}
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for the audio player with an icy theme */
+audio {
+    width: 100%;
+    background-color: #f0f7f8; /* Light blue background */
+    padding: 10px;
+    border-radius: 5px;
+    cursor: url('https://cdn.glitch.global/9db2a1f2-34be-4092-a7b6-a47e167d74d1/link_select.png?v=1696675451820'), auto;
+}
+
+/* Customize the audio controls */
+audio::-webkit-media-controls-panel {
+    background-color: transparent; /* Make the controls transparent */
+    color: #0099cc; /* Blue control buttons */
+    cursor: url('https://cdn.glitch.global/9db2a1f2-34be-4092-a7b6-a47e167d74d1/link_select.png?v=1696675451820'), auto;
+}
+
+/* Style the play button */
+audio::-webkit-media-controls-play-button {
+    background-color: #0099cc;
+    border: none;
+    color: #ffffff;
+    border-radius: 50%; /* Make it circular */
+    padding: 5px;
+    cursor: url('https://cdn.glitch.global/9db2a1f2-34be-4092-a7b6-a47e167d74d1/link_select.png?v=1696675451820'), auto;
+}
+
+/* Style the volume slider */
+audio::-webkit-media-controls-volume-slider {
+    background-color: #0099cc;
+    cursor: url('https://cdn.glitch.global/9db2a1f2-34be-4092-a7b6-a47e167d74d1/link_select.png?v=1696675451820'), auto;
+}
+
+/* Style the volume thumb */
+audio::-webkit-media-controls-volume-slider::-webkit-slider-thumb {
+    background-color: #ffffff;
+    cursor: url('https://cdn.glitch.global/9db2a1f2-34be-4092-a7b6-a47e167d74d1/link_select.png?v=1696675451820'), auto;
+}
+
+/* Style the progress bar */
+audio::-webkit-media-controls-progress-bar {
+    background-color: #0099cc;
+    cursor: url('https://cdn.glitch.global/9db2a1f2-34be-4092-a7b6-a47e167d74d1/link_select.png?v=1696675451820'), auto;
+}
+
+.download-button {
+    background-color: #0078d4; /* Icy blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: url('https://cdn.glitch.global/9db2a1f2-34be-4092-a7b6-a47e167d74d1/link_select.png?v=1696675451820'), auto;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+}
+
+.download-button:hover,
+.download-button:active {
+    background-color: #005bbf; /* Darker blue on hover or click */
+    cursor: url('https://cdn.glitch.global/9db2a1f2-34be-4092-a7b6-a47e167d74d1/link_select.png?v=1696675451820'), auto;
+}
+
+video {
+    cursor: url('https://cdn.glitch.global/9db2a1f2-34be-4092-a7b6-a47e167d74d1/link_select.png?v=1696675451820'), auto;
+    width: 640px; /* Adjust the width as needed */
+    height: 360px; /* Adjust the height as needed */
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Center horizontally for older browsers */
+}
+
+video:hover {
+  cursor: url('https://cdn.glitch.global/9db2a1f2-34be-4092-a7b6-a47e167d74d1/link_select.png?v=1696675451820'), auto;
+}
